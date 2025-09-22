@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>all about me</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <style>
+        body {
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/heartsandstars.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            font-family: Gloria Hallelujah, cursive;
+
+        }
+        nav {
+            text-align: center;
+            background-color: #FFA6C1;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1920px;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+
+        }
+        nav a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            transform: scale(1.05);
+            background-color: #FF69B4;
+            color: white;
+        }
+        nav img {   
+            height: 80px;
+            margin: 0 15px;
+        }
+        .sidegraphics {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            width: 700px;
+            height: 800px;
+        }
+        .mainphoto {
+            position: absolute;
+            margin-left: 100px;
+            width: 550px;
+            height: 550px;
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/HOBpfp.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .title {
+            position: absolute;
+            margin-left: -10px;
+            margin-top: 490px;
+            width: 750px;
+            height: 300px;
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/HOBtitles.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .hobbytab {
+            position: absolute;
+            top: 70px;
+            right: -10px;
+            width: 1200px;
+            height: 1000px;
+            border-radius: 20px;
+            overflow-y: auto;
+            overflow-x:hidden;
+        }
+        .mytabs {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 25px;
+        }
+        .mytabs input[type="radio"] {
+            display: none;
+        } 
+        .mytabs label {
+            padding: 25px;
+            background: #e2e2e2;
+            font-weight: bold;
+        }
+
+        .mytabs .tab {
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(255, 120, 163, 0.5);;
+            order: 1;
+            display: none;
+        }
+        .mytabs .tab h2 {
+            font-size: 3em;
+            text-align: center;
+            color: #E54246;
+        }
+
+        .mytabs input[type='radio']:checked + label + .tab {
+            display: block;
+        }
+
+        .mytabs input[type="radio"]:checked + label {
+            background-color: rgba(255, 120, 163, 0.8);;
+        }
+         .wedsingpng {
+            position: absolute;
+            left:-40px;
+            top: 300px;
+            width: 450px;
+            height: 160px;
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/wednobg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+         }
+         .text1mus{
+            margin-left: 150px;
+         }
+         .text2mus{
+            margin-right: 140px;
+            margin-left: 50px;
+         }
+         .text3mus{
+            margin-left:50px;
+            margin-top:-15px ;
+         }
+         .eg {
+            position: absolute;
+            left:700px;
+            top: 410px;
+            width: 550px;
+            height: 230px;
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/studionobg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+         }
+         .photocollection1 img {
+            width: 120px;
+            height: 100px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+         }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="AboutMe.html"> About Me</a>
+                <img src = "https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/_%20(10)%20-%20Edited.png" alt="sticker thing">
+                <a href="MoreInfo.html"> More Information</a>
+                <a href="Ref.html">References</a>
+            </nav>
+        </header>
+            <div class="sidegraphics">
+                <div class="mainphoto"></div>
+                <div class="title"></div>
+            </div>
+
+            <section class="hobbytab">
+                <div class="mytabs">
+                    <input type="radio" id="tabfree" name="mytabs" checked="checked">
+                    <label for="tabfree">Music</label>
+                    <section class="tab">
+                      <h2>Music</h2>
+                      <div class="wedsingpng"></div>
+                      <p class="text1mus">Ever since I was a kid, I was told I was exceptional in the field of music. 
+                        I mostly blame it on my mom since she would play classical music while she 
+                        was pregnant with me. I started singing at two and then started playing piano
+                        at six. Not only that, I learned how to play the acoustic guitar around 2022 
+                        and then switched to an electric guitar earlier this December. I joined the school's choir
+                    </p>
+                    <p class="text2mus">and recently got elected as the choirmaster. I've also performed solo at places like weddings, musicals, and school
+                        events. I write my own songs and arrange covers and I used to visit this studio a lot 
+                        with the intent of producing my own songs, although I have been producing some songs at home on my computer. 
+                        I volunteer in church to lead worship. I take big inspiration from Ariana Grande and Lizzy McAlpine
+                        but I also listen to other 
+                    </p>
+                    <p class="text3mus">genres ranging from classical music, to hip-hop, to metal.
+                        I personally love musicals like Hamilton, Dear Evan Hansen, and Wicked and I aspire to
+                        someday be part of a broadway musical.
+                    </p>
+                    <div class="eg"></div>
+                    </section>
+                
+                    <input type="radio" id="tabsilver" name="mytabs">
+                    <label for="tabsilver">Photography</label>
+                    <div class="tab">
+                      <h2>Photography</h2>
+                      <div class="photos">
+                        <aside class="photocollection1">
+                            <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/img1photo.JPG" alt="photo1">
+                            <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/img2photo.JPG" alt="photo2">
+                            <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/img3photo.JPG" alt="photo3">
+                            <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/img4photo.JPG" alt="photo3">
+                            <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/img5photo.JPG" alt="photo4">
+                            <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/img6photo.JPG" alt="photo5">
+                        </aside>
+                      </div>
+                      <p>Aside from music, I also love photography. It started when I wanted to try out for photojournalism but I had no experience.
+                        My friend taught me the basics and I found out I was a natural at handling the camera. I started to build my hobby by taking photos
+                        of nature and my surroundings. I started with a Fujifilm X-T10 but as I grew in my craft, I moved to an Alpha 6700.
+                      </p>
+                    </div>
+                  </div>
+            </section>
+    </body>
+</html>
