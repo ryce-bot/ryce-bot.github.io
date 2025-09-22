@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>all about me</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <style> 
+        body {
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/heartsandstars.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+        }
+        nav {
+            text-align: center;
+            background-color: #FFA6C1;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1920px;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+
+        }
+        nav a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            transform: scale(1.05);
+            background-color: #FF69B4;
+            color: white;
+        }
+        nav img {   
+            height: 80px;
+            margin: 0 15px;
+        }
+        .aside {
+            float: left;
+            width: 300px;
+            height: 720px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            overflow-y: auto;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            background-color: #FFC0CB;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .mainarea {
+            margin-left: 400px;
+            margin-top: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            height: 720px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .maingraphic {
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/All%20About%20Me-3.png');
+            height: 600px;
+            background-size:contain;
+            background-position: center;
+            margin-left: 320px;
+            margin-top: -70px;
+            background-repeat: no-repeat;
+            width:800px;
+            border-radius: 10px;
+        }
+        .sidegraphic1 {
+            float: left;
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/All%20About%20Me-4.png');
+            height: 210px;
+            background-size:contain;
+            background-position: center;
+            margin-right: 30px;
+            margin-top: -560px;
+            background-repeat: no-repeat;
+            width:180px;
+            border-radius: 10px;
+        }
+        .CMgraphic {
+            float: left;
+            background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/CaramelMach.png');
+            height: 250px;
+            background-size:contain;
+            background-position: center;
+            margin-right: 30px;
+            margin-top: -200px;
+            background-repeat: no-repeat;
+            width:220px;
+            border-radius: 10px;
+        }
+        .CMgraphic:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        .textpart1 {
+            font-family: Gloria Hallelujah, cursive;
+            text-align:justify;
+            width: 265px;
+            height: 80px;
+            float: left;
+            margin-left: -55px;
+            margin-top: -515px;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+        .textpart2 {
+            font-family: Gloria Hallelujah, cursive;
+            text-align:justify;
+            width: 400px;
+            height: 450px;
+            float: left;
+            margin-left: -200px;
+            margin-top: -400px;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+        .textpart3 {
+            font-family: Gloria Hallelujah, cursive;
+            text-align:justify;
+            width: 370px;
+            height: 175px;
+            float: left;
+            margin-left: -250px;
+            margin-top: -180px;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+
+    .picture img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .info {
+        text-align: center;
+        padding: 10px;
+        background-color: #F4ACB7;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+        height: 300px;
+        width: 250px;
+        margin-left: 15px;
+    }
+    .info:hover {
+        background-color: #f396a4;
+        transform: scale(1.05);
+        transition: transform 0.3s;
+    }
+    .info h2 {
+        margin-top: 2px;
+        margin-left:-20px;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+    .info li {
+        margin-top: -1px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+    }
+    .lowergraphics img {
+        width: 600px;
+        height: 400px;
+        margin-left: -400px;
+        margin-top: -80px;
+        border-radius: 10px;
+    }
+    .container1 {
+        position: relative;
+        width: 13%;
+        margin-top: -850px;
+        margin-left: 1085px;
+        }
+
+    .image1 {
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+
+    .overlay1 {
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fbfbfb;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        }
+
+    .container1:hover .overlay1 {
+        height: 100%;
+        }
+
+    .ovpic1 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .container2 {
+        position: relative;
+        width: 13%;
+        margin-left:1200px ;
+        margin-top: -40px;
+        }
+
+    .image2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+
+    .overlay2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fbfbfb;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        }
+
+    .container2:hover .overlay2 {
+        height: 100%;
+        }
+
+    .ovpic2 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .container3 {
+        position: relative;
+        width: 13%;
+        margin-left:1100px ;
+        margin-top: -40px;
+        }
+
+    .image3 {
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+
+    .overlay3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fbfbfb;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        }
+
+    .container3:hover .overlay3 {
+        height: 100%;
+        }
+
+    .ovpic3 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .bottomrightgraphic {
+        float: right;
+        background-image: url('https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/Lowerrightgraphics.png');
+        height: 400px;
+        width:400px;
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin-right:250px;
+        margin-top: -175px;
+        background-position: center;
+    }
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="MoreInfo.html"> More Information</a>
+            <img src = "https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/_%20(10)%20-%20Edited.png" alt="sticker thing">
+            <a href="HobMain.html">Hobbies</a>
+            <a href="Ref.html">References</a>
+        </nav>
+        </header>
+        <div class="aside">
+            <aside>
+                <div class="navbar">
+                    <h2>All About Me!</h2>
+                </div>
+                <div class="picture">
+                    <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/abt%20me%20pic.png" alt="Profile Picture">
+                </div>
+                <div class="info">
+                    <h2>Rylah Tan</h2>
+                    <ul>
+                        <li><b>Class:</b> Scholar</li>
+                        <li><b>Level:</b> 14</li>
+                        <li><b>Species:</b> Human</li>
+                        <li><b>HP:</b> 35/100</li>
+                        <li><b>XP:</b> 12,400</li>
+                        <li><b>Strengths:</b> Music, <br>binge-eating, and reading</li>
+                        <li><b>Weaknesses:</b> Instagram and loud noises</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="mainarea">
+            <div class="maingraphic"></div>
+            <div class="sidegraphic1"></div>
+            <div class="CMgraphic"> </div>
+            <div class="textpart1">
+                <p>
+                    Hello! My name is Rylah Tan and welcome to my "All About Me" webpage!
+                </p>
+            </div>
+            <div class="textpart2">
+                <p>
+                    I am a student at Philippine Science High School - Central Luzon Campus. Of course, being<br> in a science high school makes me <br>well-versed in science and math, but I also<br> 
+                    have a deep connection with creative subjects <br>like music and reading. Aside from that, I <br>love photography and binge-eating anything in   
+                </p>
+            </div>
+            <div class="textpart3">
+                <p>
+                    sight. I also lovveeee <br>drinking coffee, especially<br> when I feel productive. I love listening to Indie artists like Lizzy McAlpine but my favourite singer is Ariana Grande. 
+                </p>
+            </div>
+            <div class="lowergraphics">
+                <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/Let's%20GET.png" alt="lowergraphic1">
+            </div>
+            <div class="container1">
+                <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/ogpic1.png" alt="pic1" class="image1">
+                <div class="overlay1">
+                  <div class="ovpic1">
+                    <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/newpic1.jpg" alt="ovpic1">
+                  </div>
+                </div>
+            </div>
+
+            <div class="container2">
+                <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/ogpic2.png" alt="pic2" class="image2">
+                <div class="overlay2">
+                  <div class="ovpic2">
+                    <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/newpic2.jpg" alt="ovpic2">
+                  </div>
+                </div>
+            </div>
+
+            <div class="container3">
+                <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/ogpic3.png" alt="pic3" class="image3">
+                <div class="overlay3">
+                  <div class="ovpic3">
+                    <img src="https://raw.githubusercontent.com/ryce-bot/ryce-bot.github.io/refs/heads/main/newpic3.jpg" alt="ovpic3">
+                  </div>
+                </div>
+            </div>
+            <div class="bottomrightgraphic">
+            </div>
+        </div>
+    </body>
+</html>
